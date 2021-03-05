@@ -1,12 +1,12 @@
 import React from 'react';
 import '../App.css';
 import { Button } from './Button';
-import './HeroSection.css';
+import './HeroMain.css';
 
 function HeroSection() {
  return (
   <div className='hero-container noselect'>
-   {/* Would be background video put here */}
+   {/* Would be background video below */}
    {/* <video src='/videos/video-1.mp4' autoPlay loop muted /> */}
    <img className='profilePicture' src='/images/Hero/profilePicture.jpg' />
    <div className='mobile-spacing'> </div>
