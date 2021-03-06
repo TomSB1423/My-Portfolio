@@ -28,6 +28,10 @@
     margin-top: 5rem;
 }
 
+.fa-calendar {
+    margin-right: 4px;
+}
+
 #timeline div:after {
     content: "";
     width: 2px;
@@ -136,14 +140,23 @@
     margin-top: 0.5rem;
 }
 
-.holiday,
+.history-classifier{
+    margin-top: 1rem;
+    display: flex-wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.startup,
 .exam,
-.school,
-.event {
+.education,
+.event,
+.job {
     display: inline-block;
-    margin-left: 15px;
+    margin-left: 10px;
     margin-bottom: -2px;
-    font-size: 0.7em;
+    font-size: 0.8em;
     text-transform: uppercase;
     font-weight: bold;
     border-radius: 10px;
@@ -157,9 +170,16 @@
     width: -moz-fit-content;
 }
 
-.holiday::before {
-    content: "holiday";
+.startup::before {
+    content: "startup";
     background: #F6390D;
+    padding: 4px;
+    background-clip: border-box;
+}
+
+.job::before {
+    content: "job";
+    background: #2a8145;
     padding: 4px;
     background-clip: border-box;
 }
@@ -171,8 +191,8 @@
     background-clip: border-box;
 }
 
-.school::before {
-    content: "school";
+.education::before {
+    content: "education";
     background: #B2022F;
     padding: 4px;
     background-clip: border-box;
