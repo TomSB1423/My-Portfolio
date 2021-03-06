@@ -9,7 +9,7 @@ function HeroSection() {
    {/* Would be background video below */}
    {/* <video src='/videos/video-1.mp4' autoPlay loop muted /> */}
    <img className='profilePicture' src='/images/Hero/profilePicture.jpg' />
-   <div className='mobile-spacing'> </div>
+   <div className='main-mobile-spacing'> </div>
    <h1>TOM BUSHELL</h1>
    <p>Entrepreneur and Developer</p>
    <div className='hero-btns'>

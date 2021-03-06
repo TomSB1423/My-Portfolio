@@ -33,6 +33,7 @@ function Navbar() {
      </li>
     </ul>
    </div>
+   <div className='nav-fade nav-fade-bottom'/>
   </nav>
  );
 }

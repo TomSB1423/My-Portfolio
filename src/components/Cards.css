@@ -23,6 +23,28 @@ h1 {
   margin: 50px 0 45px;
 }
 
+/* .cards-fade {
+  display: block;
+  position: absolute;
+  width: 100%;
+}
+
+.cards-fade-top {
+  background-image: linear-gradient(to bottom,
+  rgba(255, 255, 255, 0),
+  rgb(27,35,52) 10%);
+  height: 100px;
+  z-index: -1;
+}
+
+.cards-fade-bottom {
+  background-image: linear-gradient(to top,
+  rgba(255, 255, 255, 0),
+  rgb(27,35,52) 10%);
+  height: 100px;
+  z-index: -1;
+} */
+
 .cards__items {
   margin-bottom: 24px;
 }

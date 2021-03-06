@@ -1,0 +1,209 @@
+.history-container {
+    background-color: white;
+    padding: 4em;
+    color: #1b2334;
+}
+
+.history-headings {
+    text-align: center;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.history-subheader {
+    color: #1b2334;
+    font-size: 1.2em;
+    margin-top: 10px
+}
+
+#timeline {
+    position: relative;
+    display: table;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+}
+
+#timeline div:after {
+    content: "";
+    width: 2px;
+    position: absolute;
+    top: 0.5rem;
+    bottom: 0rem;
+    left: 60px;
+    z-index: 1;
+    background: #c5c5c5;
+}
+
+#timeline h3 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 5rem;
+    color: #ff3b00;
+    margin: 0;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+@media (min-width: 62em) {
+    #timeline h3 {
+        font-size: 1.1em;
+    }
+}
+
+#timeline section.year {
+    position: relative;
+}
+
+#timeline section.year:first-child section {
+    margin-top: -1.3em;
+    padding-bottom: 0px;
+}
+
+#timeline section.year section {
+    position: relative;
+    padding-bottom: 1.25em;
+    margin-bottom: 2.2em;
+}
+
+#timeline section.year section h4 {
+    position: absolute;
+    bottom: 0;
+    font-size: 0.9em;
+    font-weight: 400;
+    line-height: 1.2em;
+    margin: 0;
+    padding: 0 0 0 89px;
+    color: #ff3b00;
+}
+
+@media (min-width: 62em) {
+    #timeline section.year section h4 {
+        font-size: 1em;
+    }
+}
+
+#timeline section.year section ul {
+    list-style-type: none;
+    padding: 0 0 0 75px;
+    margin: -1.35rem 0 1em;
+    max-width: 32rem;
+    font-size: 1em;
+}
+
+@media (min-width: 62em) {
+    #timeline section.year section ul {
+        font-size: 1.1em;
+        padding: 0 0 0 81px;
+    }
+}
+
+#timeline section.year section ul:last-child {
+    margin-bottom: 0;
+}
+
+#timeline section.year section ul:first-of-type:after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #c5c5c5;
+    border: 2px solid #ffffff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    left: 54px;
+    top: 3px;
+    z-index: 2;
+}
+
+#timeline section.year section ul li {
+    margin-left: 0.5rem;
+}
+
+#timeline section.year section ul li:before {
+    content: "·";
+    margin-left: -0.5rem;
+    padding-right: 0.3rem;
+}
+
+#timeline section.year section ul li:not(:first-child) {
+    margin-top: 0.5rem;
+}
+
+.holiday,
+.exam,
+.school,
+.event {
+    display: inline-block;
+    margin-left: 15px;
+    margin-bottom: -2px;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+    overflow: hidden;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: fit-content;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+}
+
+.holiday::before {
+    content: "holiday";
+    background: #F6390D;
+    padding: 4px;
+    background-clip: border-box;
+}
+
+.event::before {
+    content: "event";
+    background: #2E3347;
+    padding: 4px;
+    background-clip: border-box;
+}
+
+.school::before {
+    content: "school";
+    background: #B2022F;
+    padding: 4px;
+    background-clip: border-box;
+}
+
+.exam::before {
+    content: "exam";
+    background: #572991;
+    padding: 4px;
+    background-clip: border-box;
+}
+
+
+.history-fade {
+    display: block;
+    position: absolute;
+    width: 100%;
+}
+
+.history-fade-top {
+    background-image: linear-gradient(to bottom,
+            rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 0.9) 50%);
+    margin-top: -15px;
+    height: 30px;
+}
+
+.history-fade-bottom {
+    background-image: linear-gradient(to top,
+            rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 0.9) 50%);
+    height: 30px;
+    margin-top: -15px;
+}

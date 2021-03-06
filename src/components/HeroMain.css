@@ -49,9 +49,8 @@ video {
 }
 
 @media screen and (max-width: 960px) { 
-  .mobile-spacing {
+  .main-mobile-spacing {
     min-height: 250px;
-    border: 5px solid red;
   }
 }
 

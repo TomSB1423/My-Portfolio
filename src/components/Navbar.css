@@ -16,6 +16,7 @@
 
 .navbar {
   background: rgb(27,35,52);
+  color: #fff;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -89,6 +90,20 @@
 
 .menu-icon {
   display: none;
+}
+
+.nav-fade {
+  display: block;
+  position: absolute;
+  width: 100%;
+}
+
+.nav-fade-bottom {
+  background-image: linear-gradient(to top,
+  rgba(255, 255, 255, 0),
+  rgb(27,35,52) 10%);
+  height: 100px;
+  z-index: -1;
 }
 
 @media screen and (max-width: 720px) {
