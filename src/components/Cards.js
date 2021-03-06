@@ -4,6 +4,8 @@ import CardItem from './CardItem';
 
 function Cards() {
  return (
+  <>
+   <div className='cards-fade cards-fade-top' />
    <div className='cards'>
     <h1>Featured Projects</h1>
     <div className='cards__container'>
@@ -12,13 +14,13 @@ function Cards() {
        <CardItem
         src='images/Wondur/logo.png'
         text='Wondur'
-        label='Start Up'
+        label='Company'
         path='/'
        />
        <CardItem
         src='images/WarwickTECH/WTlogo.jpg'
         text='WarwickTECH'
-        label='Event'
+        label='Company'
         path='/'
        />
       </ul>
@@ -38,13 +40,15 @@ function Cards() {
        <CardItem
         src='images/Donatus/YElogo.jpg'
         text='Managing Director of Donatus - YE Company'
-        label='Start Up'
+        label='Company'
         path='/'
        />
       </ul>
      </div>
     </div>
    </div>
+   <div className='cards-fade cards-fade-bottom' />
+  </>
  );
 }
 

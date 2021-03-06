@@ -19,7 +19,7 @@ function HeroSection() {
      buttonStyle='btn--outline'
      buttonSize='btn--large'
     >
-     <i class='fab fa-linkedin-in'></i>
+     <i class='fab fa-linkedin-in'/>
     </Button>
     <Button
      className='btns'
@@ -27,7 +27,7 @@ function HeroSection() {
      buttonStyle='btn--outline'
      buttonSize='btn--large'
     >
-     <i class='fas fa-envelope'></i>
+     <i class='fas fa-envelope'/>
     </Button>
     <Button
      className='btns'
@@ -35,7 +35,7 @@ function HeroSection() {
      buttonStyle='btn--outline'
      buttonSize='btn--large'
     >
-     <i class='fab fa-github'></i>
+     <i class='fab fa-github'/>
     </Button>
    </div>
   </div>

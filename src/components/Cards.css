@@ -23,27 +23,26 @@ h1 {
   margin: 50px 0 45px;
 }
 
-/* .cards-fade {
-  display: block;
+.cards-fade {
   position: absolute;
   width: 100%;
 }
 
 .cards-fade-top {
   background-image: linear-gradient(to bottom,
-  rgba(255, 255, 255, 0),
-  rgb(27,35,52) 10%);
-  height: 100px;
-  z-index: -1;
+          rgba(255, 255, 255, 0),
+          rgba(255, 255, 255, 0.9) 50%);
+  margin-top: -15px;
+  height: 30px;
 }
 
 .cards-fade-bottom {
   background-image: linear-gradient(to top,
-  rgba(255, 255, 255, 0),
-  rgb(27,35,52) 10%);
-  height: 100px;
-  z-index: -1;
-} */
+          rgba(255, 255, 255, 0),
+          rgba(255, 255, 255, 0.9) 50%);
+  height: 30px;
+  margin-top: -15px;
+}
 
 .cards__items {
   margin-bottom: 24px;
@@ -119,7 +118,7 @@ h1 {
   padding: 20px 30px 30px;
   margin: auto;
   text-align: center;
-  min-width: 25em;
+  min-width: 20em;
 }
 
 .cards__item__text {
@@ -129,15 +128,15 @@ h1 {
   font-size: 1.3em;
 }
 
-.blue::after{
+.blue::after {
   background-color: #1f98f4;
 }
 
-.red::after{
+.red::after {
   background-color: rgb(194, 9, 9);
 }
 
-.green::after{
+.green::after {
   background-color: #1a994f;
 }
 
@@ -155,7 +154,7 @@ h1 {
 
 @media only screen and (max-width: 1440px) {
   .cards__item__info {
-    min-width: 18em;
+    min-width: 10em;
   }
 }
 
@@ -165,6 +164,6 @@ h1 {
   }
 
   .cards__item__info {
-    min-width: 80vw;
+    min-width: 70vw;
   }
 }

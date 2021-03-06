@@ -14,7 +14,7 @@ function HistoryList() {
       <div className='education' />
       <div className='job' />
       <div className='exam' />
-      <div className='startup' />
+      <div className='project' />
      </div>
     </div>
     <div id='timeline'>
@@ -33,8 +33,17 @@ function HistoryList() {
         <h4>April</h4>
         <ul>
          <li>
-          Promoted to Principle at WarwickTECH!
+          Promoted to President at WarwickTECH!
           <div className='job' />
+         </li>
+        </ul>
+       </section>
+       <section>
+        <h4>March</h4>
+        <ul>
+         <li>
+          Created this website!
+          <div className='project' />
          </li>
         </ul>
        </section>
@@ -73,8 +82,15 @@ function HistoryList() {
         <h4>August</h4>
         <ul>
          <li>
-          Founded travel startup - Wondur+
-          <div className='startup' />
+          <a
+           className='history-link'
+           target='_blank'
+           href='https://github.com/WondurTravel'
+          >
+           Founded travel startup - Wondur
+           <i class='link-icon fas fa-external-link-alt' />
+          </a>
+          <div className='project' />
          </li>
         </ul>
        </section>
@@ -84,6 +100,39 @@ function HistoryList() {
          <li>
           Locked inside learning <i class='fas fa-laptop' />
           <div className='education' />
+         </li>
+         <li>
+          <a
+           className='history-link'
+           target='_blank'
+           href='https://github.com/TomSB1423/TradingRobot'
+          >
+           Machine Learning Trading Robot
+           <i class='link-icon fas fa-external-link-alt' />
+          </a>
+          <div className='project' />
+         </li>
+         <li>
+          <a
+           className='history-link'
+           target='_blank'
+           href='https://github.com/TomSB1423/Smily-Game'
+          >
+           Mobile Game
+           <i class='link-icon fas fa-external-link-alt' />
+          </a>
+          <div className='project' />
+         </li>
+         <li>
+          <a
+           className='history-link'
+           target='_blank'
+           href='https://github.com/TomSB1423/Naughts-and-Crosses'
+          >
+           ML Game Solver
+           <i class='link-icon fas fa-external-link-alt' />
+          </a>
+          <div className='project' />
          </li>
         </ul>
        </section>
@@ -153,21 +202,23 @@ function HistoryList() {
        <section>
         <h4>May - August</h4>
         <ul>
-         <li>
-          Family trip round the world.
-          <br />
-          <li>Unforgettable experience.</li>
-         </li>
+         <li>Family trip round the world.</li>
         </ul>
        </section>
        <section>
         <h4>September - September 2019</h4>
         <ul>
          <li>
-          Young Enterprise Company
-          <div className='startup' />
+          <a
+           className='history-link'
+           target='_blank'
+           href='https://www.reigategrammar.org/blog/2018/05/25/donatus-surrey-finals-success/'
+          >
+           Founded Young Enterprise Company
+           <i class='link-icon fas fa-external-link-alt' />
+          </a>
+          <div className='project' />
          </li>
-         <li>Represented the County Nationwide</li>
         </ul>
        </section>
        <h3>2018</h3>
@@ -179,7 +230,6 @@ function HistoryList() {
          </li>
         </ul>
        </section>
-
        <section>
         <h4>November</h4>
         <ul>
@@ -193,10 +243,9 @@ function HistoryList() {
         <h4>August</h4>
         <ul>
          <li>
-          Saving lives
+          Saving lives - lifeguarding part time
           <div className='job' />
           <br />
-          <li>Started lifeguarding part time</li>
          </li>
         </ul>
        </section>

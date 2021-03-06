@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './Cards.css';
 
 function CardItem(props) {
-  const colorDict = {'Start Up': 'blue',
+  const colorDict = {'Company': 'blue',
                      'Event': 'red',
                      'Personal Project': 'green'}
 
